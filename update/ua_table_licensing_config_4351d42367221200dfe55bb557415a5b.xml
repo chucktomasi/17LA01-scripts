@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <name>x_17la01_scripts_scripts</name>
+        <owner_condition table="x_17la01_scripts_scripts">sys_created_by=javascript:gs.getUserName()^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </owner_condition>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 18:31:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4351d42367221200dfe55bb557415a5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_17la01_scripts_scripts</sys_name>
+        <sys_package display_value="17LA01-scripts" source="x_17la01_scripts">93d0902367221200dfe55bb557415a06</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="17LA01-scripts">93d0902367221200dfe55bb557415a06</sys_scope>
+        <sys_update_name>ua_table_licensing_config_4351d42367221200dfe55bb557415a5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 18:31:56</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="script" label="Script" language="en" table="x_17la01_scripts_scripts">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>script</element>
+            <help/>
+            <hint/>
+            <label>Script</label>
+            <language>en</language>
+            <name>x_17la01_scripts_scripts</name>
+            <plural>Scripts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-04-08 18:31:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8351d42367221200dfe55bb557415a55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Script</sys_name>
+            <sys_package display_value="17LA01-scripts" source="x_17la01_scripts">93d0902367221200dfe55bb557415a06</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="17LA01-scripts">93d0902367221200dfe55bb557415a06</sys_scope>
+            <sys_update_name>sys_documentation_x_17la01_scripts_scripts_script_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-04-08 18:31:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

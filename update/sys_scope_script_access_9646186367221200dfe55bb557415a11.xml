@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_script_access">
+    <sys_scope_script_access action="INSERT_OR_UPDATE">
+        <example_stack_trace>Default-thread-1
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:234)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.record(ScopeAccessProvider.java:202)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.access$100(ScopeAccessProvider.java:81)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider.recordAccess(ScopeAccessProvider.java:64)
+	com.glide.sys.fencing.dependency.ScopeAccessRecorder.record(ScopeAccessRecorder.java:13)
+	com.glide.script.system.ASystemInclude.recordCrossScopeDependency(ASystemInclude.java:153)
+	com.glide.script.system.ASystemInclude.include(ASystemInclude.java:133)
+	com.glide.script.AGlideRhinoScopeHandler.isScriptInclude(AGlideRhinoScopeHandler.java:45)
+	com.glide.script.GlideRhinoScopeHandler.found(GlideRhinoScopeHandler.java:27)
+	com.glide.script.ARhinoScope.get(ARhinoScope.java:77)
+	com.glide.script.RhinoScope.get(RhinoScope.java:52)
+	org.mozilla.javascript.ScriptableObject.getProperty(ScriptableObject.java:2323)
+	org.mozilla.javascript.ScriptRuntime.getExistingCtor(ScriptRuntime.java:1289)
+	org.mozilla.javascript.Context.newObject(Context.java:1637)
+	com.glide.script.RhinoObject.&lt;init&gt;(RhinoObject.java:57)
+	com.glide.script.GlideRhinoObject.&lt;init&gt;(GlideRhinoObject.java:44)
+	com.glide.ui.SysList.getListFromUI(SysList.java:543)
+	com.glide.ui.SysList.getStandardListFromUI(SysList.java:526)
+	com.glide.ui.SysList.getListFromUI(SysList.java:507)
+	com.glide.ui.SysList.getListRecords(SysList.java:466)
+	com.glide.ui.SysList.getListColumns(SysList.java:344)
+	com.glide.ui.list.TableEditServiceHelper.testFieldsWithMandatoryAttributes(TableEditServiceHelper.java:292)
+	com.glide.ui.list.TableEditServiceHelper.testAllPolicies(TableEditServiceHelper.java:216)
+	com.glide.ui.list.TableEditService.updateSingleRecord(TableEditService.java:168)
+	com.glide.ui.list.TableEditService.updateRecordResponse(TableEditService.java:150)
+	com.glide.ui.list.TableEditService.updateListEditRecords(TableEditService.java:80)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	com.glide.rest.handler.impl.ServiceHandlerImpl.invokeService(ServiceHandlerImpl.java:41)
+	com.glide.rest.processors.RESTAPIProcessor.process(RESTAPIProcessor.java:228)
+	com.glide.processors.AProcessor.runProcessor(AProcessor.java:413)
+	com.glide.processors.AProcessor.processTransaction(AProcessor.java:188)
+	com.glide.processors.ProcessorRegistry.process(ProcessorRegistry.java:165)
+	com.glide.ui.GlideServletTransaction.process(GlideServletTransaction.java:49)
+	com.glide.sys.ServletTransaction.run(ServletTransaction.java:34)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	java.lang.Thread.run(Thread.java:745)
+</example_stack_trace>
+        <script_name>SysList</script_name>
+        <source_scope display_value="17LA01-scripts">93d0902367221200dfe55bb557415a06</source_scope>
+        <sys_class_name>sys_scope_script_access</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 18:53:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9646186367221200dfe55bb557415a11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SysList</sys_name>
+        <sys_package display_value="17LA01-scripts" source="x_17la01_scripts">93d0902367221200dfe55bb557415a06</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="17LA01-scripts">93d0902367221200dfe55bb557415a06</sys_scope>
+        <sys_update_name>sys_scope_script_access_9646186367221200dfe55bb557415a11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 18:53:27</sys_updated_on>
+        <target_scope display_value="Global">global</target_scope>
+    </sys_scope_script_access>
+</record_update>
